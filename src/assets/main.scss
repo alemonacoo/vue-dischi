@@ -1,0 +1,11 @@
+$app-dark: rgb(30,45,58);
+$app-light: rgb(46,58,70);
+
+@mixin flex-row{
+    display: flex;
+}
+
+@mixin flex-col{
+    display: flex;
+    flex-direction: column;
+}
